@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(https://cdn.pixabay.com/photo/2016/07/23/13/18/pokemon-1536849_960_720.png);
+    background-repeat: no-repeat;
+    background-position: center 100px;
+}
+
+#content{
+    background: rgba(0, 0, 0, 0.5);
+    height: 100vh;
+}
+
+#title{
+    text-align: center;
+    font-size: 50px;
+    font-family: sans-serif;
+    color: yellow;
+    text-shadow: 5px 5px blue;
+    padding-top: 50px;  
+}
+
+#text{
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 25px;
+    color: white;
+    padding-top: 30px;
+}
+
+.list-item{
+    list-style-type: none;
+    color: yellow;
+    text-shadow: 1px 2px blue;
+    font-size: 25px;
+    font-family: sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 5px;
+}
+
+#main{
+    padding-top: 50px;
+}
+
+.btn{
+    height: 50px;
+    width: 200px;
+    font-size: 20px;
+    font-family: sans-serif;
+    color: white;
+    background-color: red;
+    border-radius: 20px;
+    margin-top: 100px;
+    border: solid black
+}
+
+#btn-container{
+    text-align: center;
+    margin: 0 auto;
+}
